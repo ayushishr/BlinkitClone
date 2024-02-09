@@ -84,7 +84,7 @@ margin-right: 7.0rem;
     background-color: rgb(12, 131, 31);
     color: white;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 60rem;
     border-radius: .8rem;
     display: flex;
     align-items: center;
@@ -214,15 +214,117 @@ html{
 @media screen and (max-width: 1267px){
    .section1, .section1 img {
     width: 100%;
+    display: flex;
+    
     
     
 
 
+}
+.Container{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+   
+    align-items: center;
+    padding-bottom: 6rem;
+    margin-bottom: 6rem;
+   
 }
 .mainContainer{
     max-width: 100rem;
+   
 
 }
+.headerRight svg{
+    width: 2rem;
+    margin-right: .4rem;
+
+}
+section2{
+    margin: 0 1.6rem;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    gap: 2rem;
+    border-radius: 1.2rem
+    
+    
+   
+    
+}
+.section-3 {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section-list {
+    margin-top: 1.6rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto scroll;
+    gap: 2rem;
+}
+
+
+    @media screen and (max-width: 1267px){
+        .section1, .section1 img {
+         width: 100%;
+         display: flex;
+         
+         
+         
+     
+     
+     }
+     .Container{
+         width: 90%;
+         display: flex;
+         flex-wrap: nowrap;
+        
+         align-items: center;
+         padding-bottom: 6rem;
+         margin-bottom: 6rem;
+        
+     }
+     .mainContainer{
+         max-width: 100rem;
+        
+     
+     }
+     .headerRight svg{
+         width: 2rem;
+         margin-right: .4rem;
+     
+     }
+     section2{
+         margin: 0 1.6rem;
+         display: flex;
+         flex-wrap: nowrap;
+         
+         gap: 2rem;
+         border-radius: 1.2rem
+         
+         
+        
+         
+     }
+     .section-3 {
+         margin-top: 1.6rem;
+         display: flex;
+         flex-wrap: nowrap;
+     }
+     .section-list {
+         margin-top: 1.6rem;
+         width: 100%;
+         display: flex;
+         flex-wrap: nowrap;
+         overflow: auto scroll;
+         gap: 2rem;
+     }
+     }
+    
    
     
 }
