@@ -199,132 +199,198 @@ footer {
     text-align: center;
 
 }
-
 html{
     font-size: 62.5%;
 }
 
-@media screen and (max-width: 1024px){
-    header{
-        flex-direction: column;
-    }
-   
-    
-}
-@media screen and (max-width: 1267px){
-   .section1, .section1 img {
-    width: 100%;
-    display: flex;
-    
-    
-    
-
-
-}
-.Container{
-    width: 90%;
-    display: flex;
-    flex-wrap: nowrap;
-   
-    align-items: center;
-    padding-bottom: 6rem;
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    /* Your CSS styles for screens between 320px and 425px */
+    .section-header {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-left: 61rem;
     margin-bottom: 6rem;
-   
 }
-.mainContainer{
-    max-width: 100rem;
-   
-
-}
-.headerRight svg{
-    width: 2rem;
-    margin-right: .4rem;
-
-}
-section2{
-    margin: 0 1.6rem;
-    display: flex;
-    flex-wrap: nowrap;
+    .section1, .section1 img {
+        width: 73%;
+        margin-left: 17rem;
+    }
+    .sectionImg {
+        height: 12.5rem;
+        width: 24.54rem;
+        cursor: pointer;
+        display: flex;
+    }
     
-    gap: 2rem;
-    border-radius: 1.2rem
-    
-    
-   
-    
-}
-.section-3 {
-    margin-top: 1.6rem;
-    display: flex;
-    flex-wrap: nowrap;
-}
-.section-list {
-    margin-top: 1.6rem;
-    width: 100%;
+    body {
+        width: 100%; /* Page width set to 100% of the viewport */
+        margin: 0; /* Remove default margins */
+        padding: 0; /* Remove default padding */
+      }
+      .section-list {
+    margin-top: -4.4rem;
+    width: 128%;
     display: flex;
     flex-wrap: nowrap;
     overflow: auto scroll;
     gap: 2rem;
 }
-
-
-    @media screen and (max-width: 1267px){
-        .section1, .section1 img {
-         width: 100%;
-         display: flex;
-         
-         
-         
-     
-     
-     }
-     .Container{
-         width: 90%;
-         display: flex;
-         flex-wrap: nowrap;
-        
-         align-items: center;
-         padding-bottom: 6rem;
-         margin-bottom: 6rem;
-        
-     }
-     .mainContainer{
-         max-width: 100rem;
-        
-     
-     }
-     .headerRight svg{
-         width: 2rem;
-         margin-right: .4rem;
-     
-     }
-     section2{
-         margin: 0 1.6rem;
-         display: flex;
-         flex-wrap: nowrap;
-         
-         gap: 2rem;
-         border-radius: 1.2rem
-         
-         
-        
-         
-     }
-     .section-3 {
-         margin-top: 1.6rem;
-         display: flex;
-         flex-wrap: nowrap;
-     }
-     .section-list {
-         margin-top: 1.6rem;
-         width: 100%;
-         display: flex;
-         flex-wrap: nowrap;
-         overflow: auto scroll;
-         gap: 2rem;
-     }
-     }
+    }
+    footer {
+        margin-top: 2.2rem;
+        padding: -1rem;
+        text-align: center;
+        font-size: xx-large;
+        margin-right: -44rem;
+    }
+    .headerLeft {
+        margin-left: -0.8rem;
+        margin-right: 1rem;
+    }
     
-   
-    
+.locationTitle {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: -0.4rem;
+    font-size: -0.2rem;
 }
+
+.headerLogin {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    margin-right: 2rem;
+    margin-left: -6rem;
+}
+
+.search input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: -3rem;
+}
+.section1, .section1 img {
+    width: 100%;
+    margin-left: 17rem;
+    margin-top: 1rem;
+}
+
+.section2 {
+    margin: 0 -0.4rem;
+    display: flex;
+    overflow: auto scroll;
+    gap: 2rem;
+    border-radius: 1.2rem;
+    width: 121%;
+    margin-top: 3rem;
+}
+.sectionImg {
+    height: 27.5rem;
+    width: 46.54rem;
+    cursor: pointer;
+    display: flex;
+}
+.section-3 {
+    margin-top: 4.6rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(2, auto); */
+    width: 100%;
+    margin-left: 19rem;
+}
+section-4 {
+    margin: -59.4rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    header {
+    width: 135%;
+    height: 9.6rem;
+    position: sticky;
+    top: 0;
+    border-bottom: 0.1rem solid rgb(238, 238, 238);
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .section1, .section1 img {
+    width: 103%;
+    margin-left: 8rem;
+    margin-top: -1rem;
+}
+.sectionImg {
+    height: 11.5rem;
+    width: 16.54rem;
+    cursor: pointer;
+    display: flex;
+}
+
+.section-3 {
+    margin-top: 4.6rem;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    /* grid-template-rows: repeat(2, auto); */
+    width: 100%;
+    margin-left: 10rem;
+    margin-top: 0rem;
+}
+
+.section-3 {
+    margin-top: 4.6rem;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    /* grid-template-rows: repeat(2, auto); */
+    width: 100%;
+    margin-left: 10rem;
+    margin-top: 0rem;
+}
+
+.section-header {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-left: 61rem;
+    margin-bottom: 6rem;
+}
+.section-list {
+    margin-top: 1.6rem;
+    width: 126%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto scroll;
+    gap: 2rem;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .Container {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 13rem;
+    margin-bottom: 17rem;
+    margin-left: -65fr;
+}
+.section1, .section1 img {
+    width: 111%;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+.section-3 {
+    margin-top: 3.6rem;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    /* grid-template-rows: repeat(2, auto); */
+    width: 100%;
+    margin-left: -3rem;
+    margin-top: 0rem;
+}
+.section1, .section1 img {
+    width: 111%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+}
+         
+         
+     
